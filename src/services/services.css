@@ -1,0 +1,41 @@
+.services {
+  background-image: url('./services-images/services-image400x267.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services > .title {
+  color: #f1f1ff;
+  margin-bottom: 6rem;
+}
+
+.services > .primary-btn {
+  margin-top: 6rem;
+}
+
+@media screen and (min-width: 400px) {
+  .services {
+    background-image: url('./services-images/services-image750x500.jpg');
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .services {
+    background-image: url('./services-images/services-image1500x1000.jpg');
+  }
+  .services > .title {
+    margin-bottom: 10rem;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .services {
+    background-image: url('./services-images/services-image.jpg');
+  }
+}

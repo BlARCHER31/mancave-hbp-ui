@@ -48,6 +48,7 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
+  margin-top: 2rem;
 }
 
 .grid-1x2 {

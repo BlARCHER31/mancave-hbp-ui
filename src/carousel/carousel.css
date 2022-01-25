@@ -1,0 +1,76 @@
+.carousel {
+  overflow: hidden;
+}
+
+.carousel-btn {
+  position: absolute;
+  background: none;
+  border: none;
+  color: #f1f1f1;
+  font-size: 3rem;
+  top: 50%;
+  cursor: pointer;
+  outline: none;
+}
+
+.carousel-btn:hover,
+.carousel-btn:focus {
+  color: #172a26;
+}
+
+.carousel-btn.prev {
+  left: 0.5rem;
+}
+.carousel-btn.next {
+  right: 0.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .carousel-btn {
+    font-size: 4rem;
+  }
+  .carousel-btn.prev {
+    left: 5%;
+  }
+  .carousel-btn.next {
+    right: 5%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .carousel-btn {
+    font-size: 5rem;
+  }
+  .carousel-btn.prev {
+    left: 10%;
+  }
+  .carousel-btn.next {
+    right: 10%;
+  }
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+
+.indicators {
+  display: inline-flex;
+  height: 2rem;
+}
+
+.indicators > button {
+  margin: 5px;
+}
+
+.carousel-indicator {
+  color: #f1f1f1;
+}

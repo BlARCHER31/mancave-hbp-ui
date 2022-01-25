@@ -40,6 +40,12 @@
     font-size: 2rem;
   }
 }
+
+@media screen and (min-width: 1500px) {
+  .hero {
+    background-image: url('./hero-images/hero-image.jpg');
+  }
+}
 .hero-nav {
   display: flex;
   flex-direction: column;

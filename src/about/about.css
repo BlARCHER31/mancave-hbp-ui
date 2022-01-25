@@ -1,6 +1,7 @@
 .about {
   background-color: hsl(0, 0%, 95%);
   color: #172a26;
+  height: 100vh;
 }
 
 @media screen and (min-width: 700px) {
