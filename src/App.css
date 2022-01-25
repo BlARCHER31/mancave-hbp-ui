@@ -1,38 +1,53 @@
-.App {
+:root {
+  --primary-font: 'Bebas Neue';
+}
+
+body {
+  font-family: var(--primary-font), monospace;
+}
+.container {
+    margin: 0 5rem;
+}
+
+/* Titles and Sub-titles */
+
+.title,
+.sub-title {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-size: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.sub-title {
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 410px) {
+  .title {
+    font-size: 4rem;
+  }
+  .sub-title {
+    font-size: 2rem;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+@media screen and (min-width: 750px) {
+  .title {
+    font-size: 6rem;
+  }
+  .sub-title {
+    font-size: 3rem;
+  }
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  justify-items: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.grid-1x3 {
+  grid-template-rows: repeat(3, 10rem);
 }
