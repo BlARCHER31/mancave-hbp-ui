@@ -24,7 +24,7 @@
   }
   .hero-nav {
     font-size: 1.6rem;
-    flex-direction: row;
+    flex-direction: row !important;
     justify-content: space-evenly;
   }
 }
@@ -35,7 +35,7 @@
     background-size: cover;
   }
   .hero-nav {
-    flex-direction: row;
+    flex-direction: row !important;
     justify-content: space-evenly;
     font-size: 2rem;
   }
