@@ -1,0 +1,8 @@
+.about {
+  background-color: hsl(0, 0%, 95%);
+  color: #172a26;
+}
+
+.about-photo {
+  box-shadow: 10px 10px 4px #646464;
+}

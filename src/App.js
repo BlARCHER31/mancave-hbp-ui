@@ -1,8 +1,9 @@
-import './App.css'
+import About from './about/about'
 import Hero from './hero/hero'
+import './App.css'
 
 function App() {
-  return <Hero />
+  return <About />
 }
 
 export default App

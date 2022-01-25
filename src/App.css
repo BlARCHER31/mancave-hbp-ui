@@ -6,7 +6,7 @@ body {
   font-family: var(--primary-font), monospace;
 }
 .container {
-    margin: 0 5rem;
+  margin: 0 8rem;
 }
 
 /* Titles and Sub-titles */
@@ -17,7 +17,9 @@ body {
 }
 
 .title {
+  padding: 2rem;
   font-size: 3rem;
+  margin-top: 0;
 }
 
 .sub-title {
@@ -48,6 +50,6 @@ body {
   align-items: center;
 }
 
-.grid-1x3 {
-  grid-template-rows: repeat(3, 10rem);
+.grid-1x2 {
+  grid-template-columns: repeat(2, 1fr);
 }
