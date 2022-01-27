@@ -34,9 +34,8 @@
     background-image: url('./hero-images/hero-image1500x1000.jpg');
     background-size: cover;
   }
-  .hero-nav {
+  .hero-nav-item {
     flex-direction: row !important;
-    justify-content: space-evenly;
     font-size: 2rem;
   }
 }

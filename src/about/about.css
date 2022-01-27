@@ -1,7 +1,8 @@
 .about {
   background-color: hsl(0, 0%, 95%);
   color: #172a26;
-  height: 100vh;
+  min-height: 100vh;
+  padding-bottom: 4rem;
 }
 
 @media screen and (min-width: 700px) {
@@ -12,4 +13,8 @@
 
 .about-photo {
   box-shadow: 10px 10px 4px #646464;
+}
+
+.about > h1 {
+  margin-bottom: 0;
 }
