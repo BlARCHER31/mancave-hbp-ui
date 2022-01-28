@@ -16,14 +16,16 @@ const Carousel = ({ children }) => {
   }
 
   return (
-    <div className='carousel'>
-      <div
-        className='inner'
-        style={{ transform: `translateX(-${activeIndex * 100}%)` }}
-      >
-        {React.Children.map(children, (child, index) => {
-          return React.cloneElement(child, { width: '100%' })
-        })}
+    <React.Fragment>
+      <div className='carousel'>
+        <div
+          className='inner'
+          style={{ transform: `translateX(-${activeIndex * 100}%)` }}
+        >
+          {React.Children.map(children, (child, index) => {
+            return React.cloneElement(child, { width: '100%' })
+          })}
+        </div>
       </div>
       <div className='indicators'>
         <button
@@ -43,7 +45,7 @@ const Carousel = ({ children }) => {
           &#8680;
         </button>
       </div>
-    </div>
+    </React.Fragment>
   )
 }
 

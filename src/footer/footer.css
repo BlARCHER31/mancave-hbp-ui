@@ -1,0 +1,40 @@
+.footer {
+  margin-top: 4rem;
+  min-height: 20vh;
+  color: #f1f1f1;
+  background: #172a26;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  justify-items: center;
+  align-items: center;
+  left: 0;
+  position: relative;
+  right: 0;
+  width: 100%;
+}
+
+a,
+.developer-name {
+  font-size: 1rem;
+  color: #f1f1f1;
+}
+
+@media screen and (min-width: 450px) {
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 1rem;
+  }
+
+  .footer-link {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .footer {
+    font-size: 1.4rem;
+  }
+}

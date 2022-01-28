@@ -3,16 +3,17 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .services > .title {
   color: #f1f1ff;
   margin-bottom: 6rem;
+  font-weight: lighter;
 }
 
 .services > .primary-btn {

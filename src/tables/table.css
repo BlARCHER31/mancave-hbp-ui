@@ -1,11 +1,11 @@
 table {
-  height: 10rem;
+  height: 100%;
   width: auto;
   font-size: 1.4rem;
 }
 
-.service-table-time {
-  text-align: end;
+.services-table {
+  color: #172a26;
 }
 
 @media screen and (min-width: 450px) {
@@ -27,8 +27,4 @@ table {
     font-size: 2.4rem;
     width: 100%;
   }
-}
-
-.services-table {
-  color: #172a26;
 }

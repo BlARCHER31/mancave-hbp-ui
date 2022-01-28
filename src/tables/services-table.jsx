@@ -7,10 +7,10 @@ const ServicesTable = ({ data }) => {
       <tbody>
         {data.map(data => (
           <tr key={data.key}>
-            <td>{data.service}</td>
-            <td className='service-table-time'>{data.time}Min</td>
+            <td className='services-table-service'>{data.service}</td>
+            <td className='services-table-time'>{data.time}Min</td>
           </tr>
-        ))}{' '}
+        ))}
       </tbody>
     </table>
   )

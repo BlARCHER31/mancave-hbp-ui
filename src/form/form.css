@@ -1,0 +1,18 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-input {
+  width: 100%;
+  border: solid #172a26 3px;
+  height: 2rem;
+}
+
+.contact-label {
+  font-size: 2rem;
+}
+
+.contact-input.contact-message {
+  height: 8rem;
+}

@@ -3,44 +3,13 @@ import cassImage from './about-images/temp-barber-photo.jpg'
 import AboutIndividual from './about-individual'
 import './about.css'
 
-const cassDescription = `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-Dignissimos dolor corrupti voluptatem veniam omnis sunt amet
-inventore animi sint ut, quod, autem vel repudiandae rerum ipsum,
-totam eum adipisci? Voluptates quas reiciendis et neque tenetur
-quos animi libero eligendi molestias vitae adipisci beatae
-obcaecati ullam veniam labore distinctio facere quidem aspernatur
-iste minus explicabo architecto, molestiae impedit voluptate!
-Inventore praesentium asperiores omnis, necessitatibus,
-voluptatibus iure nisi dolorem modi temporibus animi, repellat
-architecto! Enim, qui. Voluptate dicta delectus fugiat error
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-corrupti nihil in dolorum. Veniam omnis voluptas quibusdam. Atque
-dolor alias delectus amet dolores qui, consequatur ullam. Ratione
-eos vel repellat unde, veniam fugit explicabo, commodi
-consequuntur itaque assumenda fugiat ut exercitationem perferendis
-nemo at autem culpa, alias officiis mollitia labore.`
+const cassDescription = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quibusdam aliquid similique neque vel non iste excepturi quis porro repudiandae accusamus perspiciatis perferendis animi obcaecati ea soluta est debitis id, saepe sapiente delectus. Placeat, fugiat nisi. Alias quasi suscipit aspernatur pariatur aperiam possimus perferendis rem tenetur necessitatibus expedita eveniet nihil, minus architecto, tempore temporibus magnam sequi in optio facere fugiat.`
 
-const oliviaDescription = ` Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-Dignissimos dolor corrupti voluptatem veniam omnis sunt amet
-inventore animi sint ut, quod, autem vel repudiandae rerum ipsum,
-totam eum adipisci? Voluptates quas reiciendis et neque tenetur
-quos animi libero eligendi molestias vitae adipisci beatae
-obcaecati ullam veniam labore distinctio facere quidem aspernatur
-iste minus explicabo architecto, molestiae impedit voluptate!
-Inventore praesentium asperiores omnis, necessitatibus,
-voluptatibus iure nisi dolorem modi temporibus animi, repellat
-architecto! Enim, qui. Voluptate dicta delectus fugiat error
-officia. <br></br>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-corrupti nihil in dolorum. Veniam omnis voluptas quibusdam. Atque
-dolor alias delectus amet dolores qui, consequatur ullam. Ratione
-eos vel repellat unde, veniam fugit explicabo, commodi
-consequuntur itaque assumenda fugiat ut exercitationem perferendis
-nemo at autem culpa, alias officiis mollitia labore.`
+const oliviaDescription = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iste quibusdam, temporibus beatae facere at fuga magni rem asperiores ea nesciunt ullam eius molestias accusamus necessitatibus tempora quod sapiente esse hic earum commodi? Dicta, architecto voluptates pariatur ea dolore asperiores numquam veritatis ex modi quod eius exercitationem, voluptatem tempora iste.`
 
 const About = () => {
   return (
-    <div className='about'>
+    <div id='about' className='about'>
       <div className='container'>
         <h1 className='title'>About</h1>
         <AboutIndividual

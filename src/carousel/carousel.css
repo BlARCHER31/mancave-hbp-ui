@@ -3,12 +3,10 @@
 }
 
 .carousel-btn {
-  position: absolute;
   background: none;
   border: none;
   color: #f1f1f1;
   font-size: 3rem;
-  top: 50%;
   cursor: pointer;
   outline: none;
 }
@@ -18,11 +16,9 @@
   color: #172a26;
 }
 
-.carousel-btn.prev {
-  left: 0.5rem;
-}
-.carousel-btn.next {
-  right: 0.5rem;
+.indicators {
+  position: relative;
+  height: 2rem;
 }
 
 @media screen and (min-width: 600px) {
@@ -60,11 +56,6 @@
   justify-content: center;
   height: auto;
   width: 100%;
-}
-
-.indicators {
-  display: inline-flex;
-  height: 2rem;
 }
 
 .indicators > button {

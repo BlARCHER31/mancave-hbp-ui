@@ -11,6 +11,11 @@
   flex-direction: column;
 }
 
+a,
+.hero-nav-item {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 410px) {
   .hero {
     align-items: center;
@@ -34,8 +39,10 @@
     background-image: url('./hero-images/hero-image1500x1000.jpg');
     background-size: cover;
   }
+
   .hero-nav-item {
     flex-direction: row !important;
+
     font-size: 2rem;
   }
 }
