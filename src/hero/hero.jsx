@@ -10,14 +10,20 @@ const Hero = () => {
         <p className='sub-title'>Hair and Beard Parlor</p>
       </span>
       <ul className='hero-nav'>
-        <li >
-          <a className='hero-nav-item' href='#about'>About</a>
-        </li>
-        <li  id='contact'>
-          <a className='hero-nav-item' href='#services'>Services</a>
+        <li>
+          <a className='hero-nav-item' href='#about'>
+            About
+          </a>
         </li>
         <li>
-          <a className='hero-nav-item' href='#contact'>Contact</a>
+          <a className='hero-nav-item' href='#services'>
+            Services
+          </a>
+        </li>
+        <li>
+          <a className='hero-nav-item' href='#contact'>
+            Contact
+          </a>
         </li>
       </ul>
       {<Button name={'primary-btn'} label={'Book'} />}
