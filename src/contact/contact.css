@@ -1,6 +1,10 @@
-.container > .title {
-  background-color: #f1f1f1;
+.contact > .title {
   font-weight: lighter;
   color: #172a26;
+  text-align: center;
+  margin-right: 0;
   margin-bottom: 2rem;
+}
+.contact {
+  background-color: #f1f1f1;
 }
