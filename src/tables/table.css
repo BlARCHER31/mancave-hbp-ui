@@ -1,17 +1,22 @@
 table {
   height: 100%;
-  width: auto;
-  font-size: 1.2rem;
+  width: 75%;
+  font-size: 1.1rem;
 }
 
 .services-table {
   color: #172a26;
 }
 
+@media screen and (min-width: 380px) {
+  .table {
+    font-size: 1.2;
+  }
+}
+
 @media screen and (min-width: 450px) {
   table {
     font-size: 1.8rem;
-    width: 50%;
   }
 }
 
