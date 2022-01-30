@@ -1,6 +1,7 @@
 .contact-form {
   display: flex;
   flex-direction: column;
+  background-color: #f1f1f1;
 }
 
 .contact-input {
@@ -9,10 +10,11 @@
   height: 2rem;
 }
 
-.contact-label {
+label.contact-label {
   font-size: 2rem;
+  background-color: #f1f1f1;
+  color: #172a26;
 }
-
 .contact-input.contact-message {
   height: 8rem;
 }

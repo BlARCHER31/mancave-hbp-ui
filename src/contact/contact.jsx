@@ -5,7 +5,7 @@ import Map from '../google-map/google-map'
 
 const Contact = () => {
   return (
-    <div id='contact'>
+    <div className='contact' id='contact'>
       <h3 className='title'>Contact</h3>
       <div className='grid-2x1'>
         <Form />
