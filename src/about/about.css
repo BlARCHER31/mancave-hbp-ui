@@ -5,6 +5,34 @@
   padding-bottom: 4rem;
 }
 
+.about-description {
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  .about-description {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .about-description {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .about-description {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  .about-description {
+    font-size: 1.8rem;
+  }
+}
+
 @media screen and (min-width: 700px) {
   .about--content:nth-of-type(even) .about-photo {
     order: 2;
