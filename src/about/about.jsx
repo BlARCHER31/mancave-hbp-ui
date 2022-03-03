@@ -32,12 +32,12 @@ const About = () => {
         <h1 className='title'>About</h1>
         <AboutIndividual
           image={cassImage}
-          name={'Cassidy'}
+          name={'Cassidy Elliot'}
           description={cassDescription}
         />
         <AboutIndividual
           image={livImage}
-          name={'Olivia'}
+          name={'Olivia Beaumont'}
           description={oliviaDescription}
         />
       </div>

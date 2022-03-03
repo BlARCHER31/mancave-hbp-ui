@@ -7,14 +7,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .services > .title {
   color: #f1f1ff;
   font-weight: lighter;
 }
-
 
 @media screen and (min-width: 400px) {
   .services {

@@ -14,6 +14,7 @@
 a,
 .hero-nav-item {
   text-decoration: none;
+  justify-items: center;
 }
 
 @media screen and (max-width: 410px) {

@@ -6,9 +6,9 @@
   background: none;
   border: none;
   color: #f1f1f1;
-  font-size: 3rem;
   cursor: pointer;
   outline: none;
+  font-size: 2rem;
 }
 
 .carousel-btn:hover,
@@ -23,7 +23,7 @@
 
 @media screen and (min-width: 600px) {
   .carousel-btn {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .carousel-btn.prev {
     left: 5%;
