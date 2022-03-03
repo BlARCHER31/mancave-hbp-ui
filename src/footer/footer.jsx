@@ -13,10 +13,10 @@ const Footer = () => {
         <br />
         Suite 204
       </p>
-      <span className='footer-item footer-link'>
+      {/* <span className='footer-item footer-link'>
         <FaFacebookSquare size={36} />
         <FaInstagram size={36} />
-      </span>
+      </span> */}
       <span className='footer-item'>
         <p>themancavehbp2022@gmail.com</p>
         <br />

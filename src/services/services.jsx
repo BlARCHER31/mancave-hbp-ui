@@ -23,15 +23,12 @@ const faceServicesData = [
 
 const Services = () => {
   return (
-    <div id='services'  className='services'>
-      <h3 className='title'>
-        Services
-      </h3>
+    <div id='services' className='services'>
+      <h3 className='title'>Services</h3>
       <Carousel>
         <CarouselItem data={hairServicesData} />
         <CarouselItem data={faceServicesData} />
       </Carousel>
-      <Button name={'primary-btn'} label={'Book'} />
     </div>
   )
 }

@@ -12,13 +12,9 @@
 
 .services > .title {
   color: #f1f1ff;
-  margin-bottom: 6rem;
   font-weight: lighter;
 }
 
-.services > .primary-btn {
-  margin-top: 6rem;
-}
 
 @media screen and (min-width: 400px) {
   .services {
@@ -29,9 +25,6 @@
 @media screen and (min-width: 750px) {
   .services {
     background-image: url('./services-images/services-image1500x1000.jpg');
-  }
-  .services > .title {
-    margin-bottom: 10rem;
   }
 }
 

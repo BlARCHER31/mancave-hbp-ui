@@ -1,5 +1,6 @@
 import React from 'react'
-import cassImage from './about-images/temp-barber-photo.jpg'
+import cassImage from './about-images/cass-head-shot.JPG'
+import livImage from './about-images/liv-head-shot.JPG'
 import AboutIndividual from './about-individual'
 import './about.css'
 
@@ -26,7 +27,7 @@ const oliviaDescription = `As a 3rd generation cosmetologist, I grew up in the h
 
 const About = () => {
   return (
-    <div id='about' className='about'>
+    <div id='about' className=' container about'>
       <div className='container'>
         <h1 className='title'>About</h1>
         <AboutIndividual
@@ -35,7 +36,7 @@ const About = () => {
           description={cassDescription}
         />
         <AboutIndividual
-          image={cassImage}
+          image={livImage}
           name={'Olivia'}
           description={oliviaDescription}
         />

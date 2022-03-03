@@ -1,7 +1,5 @@
 import React from 'react'
 import './hero.css'
-import Button from './../button/button'
-import Map from '../google-map/google-map'
 const Hero = () => {
   return (
     <div className='hero'>
@@ -26,7 +24,9 @@ const Hero = () => {
           </a>
         </li>
       </ul>
-      {<Button name={'primary-btn'} label={'Book'} />}
+      <a href='#book' className='primary-btn'>
+        Book
+      </a>
     </div>
   )
 }

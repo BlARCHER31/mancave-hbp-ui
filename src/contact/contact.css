@@ -9,3 +9,14 @@
   background-color: #f1f1f1;
   padding: 2rem 2rem;
 }
+
+.name, .number {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  .name {
+    font-size: 1.8rem;
+  }
+}
