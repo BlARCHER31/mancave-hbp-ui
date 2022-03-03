@@ -17,7 +17,7 @@ const faceServicesData = [
   { service: 'Beard Trims', time: 15, key: '1' },
   { service: 'Mustache/Goatee', time: 10, key: '2' },
   { service: 'Color', time: '30+', key: '3' },
-  { service: 'Waxes/Facials', time: 10, key: '4' },
+  { service: 'Waxes', time: 10, key: '4' },
   { service: 'Facials', time: 15, key: '5' },
 ]
 

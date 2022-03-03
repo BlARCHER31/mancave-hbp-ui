@@ -32,7 +32,7 @@ const About = () => {
         <h1 className='title'>About</h1>
         <AboutIndividual
           image={cassImage}
-          name={'Cassidy Elliot'}
+          name={'Cassidy Elliott'}
           description={cassDescription}
         />
         <AboutIndividual
